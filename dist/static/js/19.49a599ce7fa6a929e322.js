@@ -1,0 +1,2 @@
+webpackJsonp([19],{OLKF:function(e,t){},e9sF:function(e,t,n){"use strict";Object.defineProperty(t,"__esModule",{value:!0});var s={render:function(){var e=this.$createElement;return(this._self._c||e)("div",{staticClass:"content"},[this._v("\n\t抱歉，页面还在开发中！\n")])},staticRenderFns:[]};var i=n("VU/8")({name:"nofound",mounted:function(){this.$emit("hideHeaderAndLeft",{show:!0})}},s,!1,function(e){n("OLKF")},"data-v-1c644a46",null);t.default=i.exports}});
+//# sourceMappingURL=19.49a599ce7fa6a929e322.js.map
