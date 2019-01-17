@@ -1,0 +1,9 @@
+{
+	"name": "about",
+	"version": "1.0.0",
+	"scripts": {},
+	"devDependencies": {
+		"browser-sync": "^2.23.6",
+		"gulp": "^3.9.1"
+	}
+}

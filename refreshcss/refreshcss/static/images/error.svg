@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 19.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="图层_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 500 500" style="enable-background:new 0 0 500 500;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#FFFFFF;}
+	.st1{fill:#E2F2F9;stroke:#949AA9;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
+	.st2{fill:#E2F2F9;stroke:#949AA9;stroke-width:2;stroke-miterlimit:10;}
+	.st3{fill:#FFFFFF;stroke:#949AA9;stroke-width:2;stroke-miterlimit:10;}
+	.st4{fill:#949AA9;}
+	.st5{fill:#BCC7D2;}
+	.st6{fill:#D3DEE7;}
+	.st7{fill:none;stroke:#949AA9;stroke-width:2;stroke-miterlimit:10;}
+	.st8{fill:#EAEAEA;}
+</style>
+<g>
+	<g>
+		<path class="st0" d="M317,254.4H183.4c-1.9,0-3.5-1.5-3.5-3.4v-76.8c0-1.9,1.6-3.4,3.5-3.4H317c1.9,0,3.5,1.5,3.5,3.4V251
+			C320.5,252.9,318.9,254.4,317,254.4L317,254.4z M317,254.4"/>
+		<rect x="225.2" y="266.3" class="st1" width="50.1" height="18.3"/>
+		<path class="st2" d="M321.5,164.4H179c-2.1,0-3.9,1.7-3.9,3.8V260v0.7v5.4c0,1.7,1.4,3.1,3.1,3.1h144.1c1.7,0,3.1-1.4,3.1-3.1
+			v-5.4V260v-91.8C325.4,166.1,323.6,164.4,321.5,164.4z"/>
+		<path class="st3" d="M313.9,171.8H186.6c-1.9,0-3.5,1.4-3.5,3v72.3v0.6v4.2c0,1.3,1.2,2.4,2.8,2.4h128.7c1.5,0,2.8-1.1,2.8-2.4
+			v-4.2v-0.6v-72.3C317.3,173.2,315.8,171.8,313.9,171.8z"/>
+		<path class="st1" d="M285.1,295.8h-69.8l9.9-11.1h50.1L285.1,295.8z M285.1,295.8"/>
+		<path class="st4" d="M248.1,262.1c0,1.2,1,2.1,2.2,2.1c1.2,0,2.2-1,2.2-2.1c0-1.2-1-2.1-2.2-2.1C249,260,248.1,260.9,248.1,262.1
+			L248.1,262.1z M248.1,262.1"/>
+		<path class="st4" d="M203.6,199.1h30v5.7h-30V199.1z M203.6,210.3H258v5.7h-54.3V210.3z M203.6,220.5h60v5.7h-60V220.5z
+			 M203.6,220.5"/>
+		<polygon class="st4" points="272.4,218.4 268.9,197.5 290,201 283.8,207.2 297.4,220.6 292.7,225.2 279.1,211.8 		"/>
+	</g>
+	<g>
+		<path class="st5" d="M162.8,253.7h-8c-0.6,0-1-0.5-1-1v-0.1c0-0.6,0.5-1,1-1h8c0.6,0,1,0.5,1,1v0.1
+			C163.8,253.3,163.4,253.7,162.8,253.7z"/>
+		<path class="st5" d="M159.9,248.7v7.9c0,0.6-0.5,1-1,1h-0.1c-0.6,0-1-0.5-1-1v-7.9c0-0.6,0.5-1,1-1h0.1
+			C159.5,247.7,159.9,248.1,159.9,248.7z"/>
+	</g>
+	<g>
+		<path class="st5" d="M339.7,164.5h-8c-0.6,0-1-0.5-1-1v-0.1c0-0.6,0.5-1,1-1h8c0.6,0,1,0.5,1,1v0.1
+			C340.8,164,340.3,164.5,339.7,164.5z"/>
+		<path class="st5" d="M336.8,159.5v7.9c0,0.6-0.5,1-1,1h-0.1c-0.6,0-1-0.5-1-1v-7.9c0-0.6,0.5-1,1-1h0.1
+			C336.4,158.5,336.8,158.9,336.8,159.5z"/>
+	</g>
+	<ellipse class="st5" cx="171" cy="155.1" rx="4" ry="4"/>
+	<ellipse class="st5" cx="342.8" cy="231.6" rx="3" ry="3"/>
+	<ellipse class="st6" cx="308.1" cy="280.4" rx="2" ry="2"/>
+	<ellipse class="st7" cx="153.8" cy="197.1" rx="5" ry="5"/>
+	<ellipse class="st7" cx="345.8" cy="258" rx="3" ry="3"/>
+	<ellipse class="st7" cx="269.5" cy="148.1" rx="3" ry="3"/>
+	<ellipse class="st8" cx="250.2" cy="320.9" rx="85.2" ry="4.2"/>
+</g>
+</svg>

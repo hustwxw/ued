@@ -1,0 +1,269 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="initial-scale=1,maximum-scale=1, minimum-scale=1">
+	<title>上拉刷新</title>
+	<link rel="stylesheet" href="../style/jquery-ui.min.css" />
+	<link rel="stylesheet" href="../style/basic.css">
+	<link rel="stylesheet" href="../style/swiper.min.css">
+	<link rel="stylesheet" href="../style/上拉刷新.css">
+	<script src="../js/lib/lib.js"></script>
+	<script type="text/javascript" src="../js/lib/iscroll.js"></script>
+	<script>
+		
+		var myScroll;
+		var minY;
+
+		function loaded() {
+
+		    myScroll = new IScroll('#wrapper', {
+		        mouseWheel: true,
+		        HWCompositing: true, //启用硬件加速
+		        scrollEnd: function() {
+		            console.log('end')
+		        }
+		    });
+
+		    myScroll.on('scrollEnd', function() {
+		        if ($(".more").offset().top - 20 < $(window).outerHeight() - $(".search_page").outerHeight()) {
+		        	console.log("loading")
+
+		        	// 切换加载状态
+		        	$(".more i").addClass("loading");
+		        	$(".more span").html("数据加载中...");
+
+		        	setTimeout(function(){
+		        		// 模拟加载十条数据
+			        	for(var i=0;i<10;i++){
+			        		$(".more").before($("#template").html());
+			        	}
+
+			        	// 用setTimeout切断代码执行时间片，保证刷新最后执行
+			        	setTimeout(function(){
+			        		myScroll.refresh();
+
+			        		// 切换正常状态
+		        			$(".more i").removeClass("loading");
+		        			$(".more span").html("滑动查看更多");
+
+			        	},0);
+		        	},1000);
+		        }
+		    });
+		}
+
+		document.addEventListener('touchmove', function(e) {
+		    e.preventDefault();
+		}, false);
+
+	</script>
+</head>
+<body onload="loaded()">
+	<div id="wrapper">
+		<div id="scroller">
+			<ul class="list_cols">
+				<li class="swiper-container swiper-container-horizontal item">
+					<div class="swiper-wrapper" style="transition-duration: 0ms; transform: translate3d(0px, 0px, 0px);">
+						<div class="swiper-slide info">
+							<div class="head">
+								<img src="../images/head1.png" />
+							</div>
+							<div class="iteminfo">
+								<span>
+									<span class="name">张三</span>
+									<span class="pos">总经理</span>
+								</span>
+								<span class="com">xxxxxxxx科技股份有限公司</span>
+							</div>
+						</div>			
+					</div>
+				</li>
+				<li class="swiper-container swiper-container-horizontal item">
+					<div class="swiper-wrapper" style="transition-duration: 0ms; transform: translate3d(0px, 0px, 0px);">
+						<div class="swiper-slide info">
+							<div class="head">
+								<img src="../images/head1.png" />
+							</div>
+							<div class="iteminfo">
+								<span>
+									<span class="name">张三</span>
+									<span class="pos">总经理</span>
+								</span>
+								<span class="com">xxxxxxxx科技股份有限公司</span>
+							</div>
+						</div>			
+					</div>
+				</li>
+				<li class="swiper-container swiper-container-horizontal item">
+					<div class="swiper-wrapper" style="transition-duration: 0ms; transform: translate3d(0px, 0px, 0px);">
+						<div class="swiper-slide info">
+							<div class="head">
+								<img src="../images/head1.png" />
+							</div>
+							<div class="iteminfo">
+								<span>
+									<span class="name">张三</span>
+									<span class="pos">总经理</span>
+								</span>
+								<span class="com">xxxxxxxx科技股份有限公司</span>
+							</div>
+						</div>			
+					</div>
+				</li>
+				<li class="swiper-container swiper-container-horizontal item">
+					<div class="swiper-wrapper" style="transition-duration: 0ms; transform: translate3d(0px, 0px, 0px);">
+						<div class="swiper-slide info">
+							<div class="head">
+								<img src="../images/head1.png" />
+							</div>
+							<div class="iteminfo">
+								<span>
+									<span class="name">张三</span>
+									<span class="pos">总经理</span>
+								</span>
+								<span class="com">xxxxxxxx科技股份有限公司</span>
+							</div>
+						</div>			
+					</div>
+				</li>
+				<li class="swiper-container swiper-container-horizontal item">
+					<div class="swiper-wrapper" style="transition-duration: 0ms; transform: translate3d(0px, 0px, 0px);">
+						<div class="swiper-slide info">
+							<div class="head">
+								<img src="../images/head1.png" />
+							</div>
+							<div class="iteminfo">
+								<span>
+									<span class="name">张三</span>
+									<span class="pos">总经理</span>
+								</span>
+								<span class="com">xxxxxxxx科技股份有限公司</span>
+							</div>
+						</div>			
+					</div>
+				</li>
+				<li class="swiper-container swiper-container-horizontal item">
+					<div class="swiper-wrapper" style="transition-duration: 0ms; transform: translate3d(0px, 0px, 0px);">
+						<div class="swiper-slide info">
+							<div class="head">
+								<img src="../images/head1.png" />
+							</div>
+							<div class="iteminfo">
+								<span>
+									<span class="name">张三</span>
+									<span class="pos">总经理</span>
+								</span>
+								<span class="com">xxxxxxxx科技股份有限公司</span>
+							</div>
+						</div>			
+					</div>
+				</li>
+				<li class="swiper-container swiper-container-horizontal item">
+					<div class="swiper-wrapper" style="transition-duration: 0ms; transform: translate3d(0px, 0px, 0px);">
+						<div class="swiper-slide info">
+							<div class="head">
+								<img src="../images/head1.png" />
+							</div>
+							<div class="iteminfo">
+								<span>
+									<span class="name">张三</span>
+									<span class="pos">总经理</span>
+								</span>
+								<span class="com">xxxxxxxx科技股份有限公司</span>
+							</div>
+						</div>			
+					</div>
+				</li>
+				<li class="swiper-container swiper-container-horizontal item">
+					<div class="swiper-wrapper" style="transition-duration: 0ms; transform: translate3d(0px, 0px, 0px);">
+						<div class="swiper-slide info">
+							<div class="head">
+								<img src="../images/head1.png" />
+							</div>
+							<div class="iteminfo">
+								<span>
+									<span class="name">张三</span>
+									<span class="pos">总经理</span>
+								</span>
+								<span class="com">xxxxxxxx科技股份有限公司</span>
+							</div>
+						</div>			
+					</div>
+				</li>
+				<li class="swiper-container swiper-container-horizontal item">
+					<div class="swiper-wrapper" style="transition-duration: 0ms; transform: translate3d(0px, 0px, 0px);">
+						<div class="swiper-slide info">
+							<div class="head">
+								<img src="../images/head1.png" />
+							</div>
+							<div class="iteminfo">
+								<span>
+									<span class="name">张三</span>
+									<span class="pos">总经理</span>
+								</span>
+								<span class="com">xxxxxxxx科技股份有限公司</span>
+							</div>
+						</div>			
+					</div>
+				</li>
+				<li class="swiper-container swiper-container-horizontal item">
+					<div class="swiper-wrapper" style="transition-duration: 0ms; transform: translate3d(0px, 0px, 0px);">
+						<div class="swiper-slide info">
+							<div class="head">
+								<img src="../images/head1.png" />
+							</div>
+							<div class="iteminfo">
+								<span>
+									<span class="name">张三</span>
+									<span class="pos">总经理</span>
+								</span>
+								<span class="com">xxxxxxxx科技股份有限公司</span>
+							</div>
+						</div>			
+					</div>
+				</li>
+				<li class="swiper-container swiper-container-horizontal item">
+					<div class="swiper-wrapper" style="transition-duration: 0ms; transform: translate3d(0px, 0px, 0px);">
+						<div class="swiper-slide info">
+							<div class="head">
+								<img src="../images/head1.png" />
+							</div>
+							<div class="iteminfo">
+								<span>
+									<span class="name">张三</span>
+									<span class="pos">总经理</span>
+								</span>
+								<span class="com">xxxxxxxx科技股份有限公司</span>
+							</div>
+						</div>			
+					</div>
+				</li>
+				<li class="more">
+					<i></i>
+					<span>滑动查看更多</span>
+				</li>
+			</ul>
+		</div>
+	</div>
+	<script type="text/html" id="template">
+		<li class="swiper-container swiper-container-horizontal item">
+			<div class="swiper-wrapper" style="transition-duration: 0ms; transform: translate3d(0px, 0px, 0px);">
+				<div class="swiper-slide info">
+					<div class="head">
+						<img src="../images/head1.png" />
+					</div>
+					<div class="iteminfo">
+						<span>
+							<span class="name">张三</span>
+							<span class="pos">总经理</span>
+						</span>
+						<span class="com">xxxxxxxx科技股份有限公司</span>
+					</div>
+				</div>			
+			</div>
+		</li>
+	</script>
+</body>
+</html>

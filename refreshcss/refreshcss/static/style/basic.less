@@ -1,0 +1,168 @@
+// 清除内外边距
+body, h1, h2, h3, h4, h5, h6, hr, p, blockquote, /* structural elements 结构元素 */
+dl, dt, dd, ul, ol, li, /* list elements 列表元素 */
+pre, /* text formatting elements 文本格式元素 */
+fieldset, lengend, button, input, textarea, /* form elements 表单元素 */
+th, td { /* table elements 表格元素 */
+    margin: 0;
+    padding: 0;
+}
+
+/* 设置默认字体 */
+body,
+button, input, select, textarea { /* for ie */
+    /*font: 12px/1 Tahoma, Helvetica, Arial, "宋体", sans-serif;*/
+    font: 12px/1 "Microsoft Yahei", Tahoma, Helvetica, Arial, "\5b8b\4f53", sans-serif; /* 用 ascii 字符表示，使得在任何编码下都无问题 */
+}
+
+h1 { font-size: 18px; /* 18px / 12px = 1.5 */ }
+h2 { font-size: 16px; }
+h3 { font-size: 14px; }
+h4, h5, h6 { font-size: 100%; }
+
+address, cite, dfn, em, var, i { font-style: normal; } /* 将斜体扶正 */
+code, kbd, pre, samp, tt { font-family: "Courier New", Courier, monospace; } /* 统一等宽字体 */
+small { font-size: 12px; } /* 小于 12px 的中文很难阅读，让 small 正常化 */
+
+/* 重置列表元素 */
+ul, ol { list-style: none; }
+
+/* 重置文本格式元素 */
+abbr[title], acronym[title] { /* 注：1.ie6 不支持 abbr; 2.这里用了属性选择符，ie6 下无效果 */
+    border-bottom: 1px dotted;
+    cursor: help;
+}
+
+q:before, q:after { content: ''; }
+
+/* 重置表单元素 */
+legend { color: #000; } /* for ie6 */
+fieldset, img { border: none; } /* img 搭车：让链接里的 img 无边框 */
+/* 注：optgroup 无法扶正 */
+button, input, select, textarea {
+    font-size: 100%; /* 使得表单元素在 ie 下能继承字体大小 */
+}
+
+/* 重置表格元素 */
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+/* 重置 hr */
+hr {
+    border: none;
+    height: 1px;
+}
+
+// 生成内外边距的各种值
+._generate(@n, @i: 0) when (@i =< @n) {
+    .m_t_@{i}{
+    	margin-top:%(~"%spx",@i);
+    }
+    .m_b_@{i}{
+    	margin-top:%(~"%spx",@i);
+    }
+    .m_l_@{i}{
+    	margin-top:%(~"%spx",@i);
+    }
+    .m_r_@{i}{
+    	margin-top:%(~"%spx",@i);
+    }
+    .p_t_@{i}{
+    	margin-top:%(~"%spx",@i);
+    }
+    .p_b_@{i}{
+    	margin-top:%(~"%spx",@i);
+    }
+    .p_l_@{i}{
+    	margin-top:%(~"%spx",@i);
+    }
+    .p_r_@{i}{
+    	margin-top:%(~"%spx",@i);
+    }
+    ._generate(@n, (@i + 5));
+}
+
+._generate(300);
+
+.clearfix:after {
+  content: '\20';
+  display: block;
+  clear: both;  
+}
+.clearfix {
+  display:inline-block;
+  zoom:1;
+}
+* html .clearfix {
+  height:1%;
+}
+.clearfix {
+  display:block;
+}
+.none{
+  display: none !important;
+}
+
+.cp{
+  cursor: pointer !important;
+}
+
+.cd{
+  cursor: default !important;
+}
+
+.tran{
+  transition: all .3s linear !important;
+}
+
+.tc{
+  text-align: center;
+}
+
+.ps{
+  position:relative;
+}
+
+.fl { float:left!important}
+.fr { float:right!important}
+
+.tl { text-align:left!important;}
+.tr { text-align:right!important;}
+.tc { text-align:center!important;}
+
+.posit_rel { position:relative;}
+.posit_abs { position:absolute;}
+.posit_fix {position: fixed;}
+/* end table layout style */
+.pointer{ cursor:pointer;}
+.del_style{ text-decoration:line-through;}
+.unline { text-decoration: underline; }
+.v_m, .v_m * {vertical-align: middle;}
+
+.radio{ margin:0 5px; *margin:0 2px; vertical-align:-2px;*vertical-align:middle;}
+.checkbox{ margin:0 5px 0 2px;*margin:0 3px 0 0px;vertical-align:-2px;*vertical-align:middle;}
+
+
+input[type="button"]{outline:none;}  
+input[type="button"]:hover{filter:alpha(opacity=80);opacity:0.8;}
+input[type="radio"]{outline:none;}
+input[type="submit"]{outline:none;}
+input[type="checkbox"]{outline:none;}
+
+.f_14,.f_14 *{font-size:14px;}
+.f_16,.f_16 *{font-size:16px;}
+.f_18,.f_18 *{font-size:18px;}
+.f_20,.f_20 *{font-size:20px;}
+/* 字体加粗 */
+.f_bold,.f_bold *{font-weight:bold;}
+
+@font-face {
+  font-family: "PingFangSC";
+  src: url("../font/PingFangRegular.ttf") format('truetype'), url('../font/PingFangRegular.svg') format('svg'), url('../font/PingFangRegular.woff') format('woff');
+}
+
+body{
+  font-family: "PingFangSC";
+}

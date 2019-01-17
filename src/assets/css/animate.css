@@ -1,0 +1,5 @@
+@import url(./_animate.css);
+
+.animate-tran {
+  transition: all .3s ease-in-out;
+}

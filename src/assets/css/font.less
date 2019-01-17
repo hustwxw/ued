@@ -1,0 +1,9 @@
+// 生成字号（px单位）
+._generateFontsize(@n, @i: 0) when (@i =< @n) {
+    .f_@{i}{
+      font-size:%(~"%spx",@i) !important;
+    }
+    ._generateFontsize(@n, (@i + 1));
+}
+
+._generateFontsize(100);
