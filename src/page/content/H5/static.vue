@@ -3,16 +3,16 @@
 	<div class="content">
 		<p class="title">以下页面均是静态页面的效果</p>
 		<div class="wrap">
-			<a href="https://hustwxw.github.io/solomonwu/h5static/html/上拉刷新.html" target="_blank">上拉刷新（基于iscroll5）demo</a>
-			<a href="https://hustwxw.github.io/solomonwu/h5static/html/左滑删除.html" target="_blank">左滑删除（基于swiper）demo</a>
+			<a href="https://hustwxw.github.io/ued/h5static/html/上拉刷新.html" target="_blank">上拉刷新（基于iscroll5）demo</a>
+			<a href="https://hustwxw.github.io/ued/h5static/html/左滑删除.html" target="_blank">左滑删除（基于swiper）demo</a>
 			<a href="http://www.swiper.com.cn/demo/index.html">轮播图Demo（swiper）</a>
-			<a href="https://hustwxw.github.io/solomonwu/h5static/images/AirlineIcon.zip">各种航司logo(Zip)</a>
-			<a href="https://hustwxw.github.io/solomonwu/h5static/html/airs.html" target="_blank">各种航司logo</a>
-			<a href="https://hustwxw.github.io/solomonwu/lesslib/less-lib.less" target="_blank">basic less 源码</a>
+			<a href="https://hustwxw.github.io/ued/h5static/images/AirlineIcon.zip">各种航司logo(Zip)</a>
+			<a href="https://hustwxw.github.io/ued/h5static/html/airs.html" target="_blank">各种航司logo</a>
+			<a href="https://hustwxw.github.io/ued/lesslib/less-lib.less" target="_blank">basic less 源码</a>
 		</div>
 		<div class="wrap m_t_10" v-if="chrome">
-			<a href="view-source:https://hustwxw.github.io/solomonwu/h5static/html/上拉刷新.html" target="_blank">上拉刷新（基于iscroll5）source</a>
-			<a href="view-source:https://hustwxw.github.io/solomonwu/h5static/html/左滑删除.html" target="_blank">左滑删除（基于swiper）source</a>
+			<a href="view-source:https://hustwxw.github.io/ued/h5static/html/上拉刷新.html" target="_blank">上拉刷新（基于iscroll5）source</a>
+			<a href="view-source:https://hustwxw.github.io/ued/h5static/html/左滑删除.html" target="_blank">左滑删除（基于swiper）source</a>
 		</div>
 	</div>	
 </transition>

@@ -1,7 +1,7 @@
 <template>
 <transition name="comein-fade">
 	<div class="content">
-		<p class="title">点击<a href="https://hustwxw.github.io/solomonwu/refreshcss/refreshcss.zip" target="_blank">此处</a>下载脚手架</p>
+		<p class="title">点击<a href="https://hustwxw.github.io/ued/refreshcss/refreshcss.zip" target="_blank">此处</a>下载脚手架</p>
 		<div class="desc">
 			<p>使用说明:</p>
 			<p>1、目录结构如下图:</p>
