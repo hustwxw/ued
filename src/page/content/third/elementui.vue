@@ -4,7 +4,7 @@
       <div class="c-row">
         <p class="title">官方地址链接</p>
         <div>
-          <a href="http://element-cn.eleme.io/#/zh-CN/component/installation">http://element-cn.eleme.io/#/zh-CN/component/installation</a>
+          <a href="http://element-cn.eleme.io/#/zh-CN/component/installation" target="_blank">http://element-cn.eleme.io/#/zh-CN/component/installation</a>
         </div>
       </div>
       <div class="c-row">

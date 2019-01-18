@@ -4,10 +4,10 @@
 		<h1>UED标准组件库使用说明文档</h1>
 		<h2>1、CSS文件引用（两个必须文件）</h2>
 		<div class="box">
-			<h3>基础css库：&lt;link rel="stylesheet" href="<a href="https://hustwxw.github.io/solomonwu/src/assets/css/basic.css" target="_blank">https://hustwxw.github.io/solomonwu/src/assets/css/basic.css</a>"&gt; <a href="https://hustwxw.github.io/solomonwu/src/assets/css/basic.css" target="_blank">下载basic.css源文件</a></h3>
-			<h3>组件css库：&lt;link rel="stylesheet" href="<a href="https://hustwxw.github.io/solomonwu/src/assets/css/ued.css" target="blank">https://hustwxw.github.io/solomonwu/src/assets/css/ued.css</a>"&gt; <a href="https://hustwxw.github.io/solomonwu/src/assets/css/ued.css" target="_blank">下载ued.css源文件</a></h3>
-			<h3>皮肤字体font库：&lt;link rel="stylesheet" href="<a href="https://hustwxw.github.io/solomonwu/src/assets/css/font.css" target="blank">https://hustwxw.github.io/solomonwu/src/assets/css/font.css</a>"&gt; <a href="https://hustwxw.github.io/solomonwu/src/assets/css/font.css" target="_blank">font.css源文件</a></h3>
-			<h3>图片资源：&lt;link rel="stylesheet" href="<a href="https://hustwxw.github.io/solomonwu/src/assets/images.zip" target="blank">https://hustwxw.github.io/solomonwu/src/assets/images.zip</a>"&gt; <a href="https://hustwxw.github.io/solomonwu/src/assets/images.zip" target="_blank">下载images.zip图片压缩包</a></h3>
+			<h3>基础css库：&lt;link rel="stylesheet" href="<a href="https://hustwxw.github.io/ued/src/assets/css/basic.css" target="_blank">https://hustwxw.github.io/ued/src/assets/css/basic.css</a>"&gt; <a href="https://hustwxw.github.io/ued/src/assets/css/basic.css" target="_blank">下载basic.css源文件</a></h3>
+			<h3>组件css库：&lt;link rel="stylesheet" href="<a href="https://hustwxw.github.io/ued/src/assets/css/ued.css" target="blank">https://hustwxw.github.io/ued/src/assets/css/ued.css</a>"&gt; <a href="https://hustwxw.github.io/ued/src/assets/css/ued.css" target="_blank">下载ued.css源文件</a></h3>
+			<h3>皮肤字体font库：&lt;link rel="stylesheet" href="<a href="https://hustwxw.github.io/ued/src/assets/css/font.css" target="blank">https://hustwxw.github.io/ued/src/assets/css/font.css</a>"&gt; <a href="https://hustwxw.github.io/ued/src/assets/css/font.css" target="_blank">font.css源文件</a></h3>
+			<h3>图片资源：&lt;link rel="stylesheet" href="<a href="https://hustwxw.github.io/ued/src/assets/images.zip" target="blank">https://hustwxw.github.io/ued/src/assets/images.zip</a>"&gt; <a href="https://hustwxw.github.io/ued/src/assets/images.zip" target="_blank">下载images.zip图片压缩包</a></h3>
 		</div>
 		<h2>2、CSS命名规则</h2>
 		<div class="box">

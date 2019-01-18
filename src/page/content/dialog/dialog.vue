@@ -23,8 +23,6 @@
 import eking from "@/lib/eking"
 import sweet from "sweetalert"
 import copy from "copy-to-clipboard"
-// import $ from "jquery"
-var dialog = require('art-dialog');
 export default{
 	name: 'tipsToast',
 	data(){
@@ -61,12 +59,9 @@ export default{
 		}
 
 		$("#tosat1").on("click",function(){
-			console.log(dialog)
-			var d = dialog({
-				title: '欢迎',
-				content: '欢迎使用 artDialog 对话框组件！'
+			sweet({
+  				text: "Hello world!",
 			});
-			d.show();
 		});
 
 	}
