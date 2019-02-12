@@ -7,3 +7,67 @@
 }
 
 ._generateFontsize(100);
+
+// 颜色样式覆盖
+@imp: !important; //启用
+// @imp: ''; //关闭
+// input框placeholder字体颜色
+.ued-input-basic::-webkit-input-placeholder{
+  color: #909399 @imp;
+}
+
+// input框禁用的字体颜色和背景颜色
+.ued-input-basic[disabled]{
+  background-color: #DCDFE6 @imp;
+  color: #F5F7FA @imp;
+}
+
+// input focus事件的border颜色
+.ued-input-basic:focus{
+  border-color: #409eff @imp;
+}
+
+// 基础input的border颜色和字体颜色
+.ued-input-basic {
+  border-color:#DCDFE6 @imp;
+  color:#909399 @imp;
+}
+
+// input-复合型输入框
+.ued-input-compose i {
+  border-top-color: #999999 @imp;
+}
+.ued-input-compose ul{
+  border-color: #d5d5d5 @imp;
+}
+.ued-input-compose ul li:hover, .ued-input-compose ul li.hover {
+  background-color: #F5F7FA @imp;
+  color: #999 @imp;
+}
+.ued-input-compose.ued-input-compose_bg {
+  background-color: #F5F7FA @imp;
+}
+.ued-input-compose .ued-input-compose-tag{
+  border-color:#DCDFE6 @imp;
+  color:#909399 @imp;
+}
+
+// input-文本域
+.ued-input-textarea{
+  border-color: #DCDFE6 @imp;
+}
+
+// input-下拉框
+.ued-input-select .ued-input-selectarrow{
+  border-left-color: #ddd @imp;
+}
+.ued-input-select i{
+  border-top-color:#999 @imp;
+}
+.ued-input-select ul{
+  border-color: #d5d5d5 @imp;
+}
+.ued-input-select ul li:hover, .ued-input-select ul li.hover {
+  background-color: #F5F7FA @imp;
+  color: #999 @imp;
+}
